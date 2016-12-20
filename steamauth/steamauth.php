@@ -49,6 +49,7 @@ if (isset($_GET['login'])){
 				}
 			} else {
 				echo "User is not logged in.\n";
+				die;
 			}
 		}
 	} catch(ErrorException $e) {
